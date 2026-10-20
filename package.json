@@ -1,0 +1,26 @@
+{
+  "name": "living-code-obsidian",
+  "version": "1.0.0",
+  "description": "Living Code for Obsidian. Repository-owned theme files, installation instructions and four color flavors.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Living Code",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/living-code-theme/obsidian.git"
+  },
+  "homepage": "https://github.com/living-code-theme/obsidian",
+  "private": true,
+  "packageManager": "pnpm@12.9.0",
+  "engines": {
+    "node": ">=22.22"
+  },
+  "livingCode": {
+    "kind": "obsidian"
+  },
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "test": "node scripts/check.mjs",
+    "package": "node scripts/package.mjs"
+  }
+}

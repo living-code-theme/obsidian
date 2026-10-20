@@ -1,0 +1,257 @@
+/* Living Code for Obsidian. Dark mode is Night, light mode is Paper.
+   Maintained at https://github.com/living-code-theme/obsidian. Frost and Signal are dark flavors:
+   copy a file from snippets/ into <vault>/.obsidian/snippets/ and enable it under Appearance > CSS snippets. */
+
+.theme-dark {
+  --background-primary: #05080b;
+  --background-primary-alt: #090e11;
+  --background-secondary: #020405;
+  --background-secondary-alt: #020405;
+  --background-modifier-border: #1d2226;
+  --background-modifier-border-hover: #00a692;
+  --background-modifier-border-focus: #00a692;
+  --background-modifier-hover: #12171a;
+  --background-modifier-active-hover: #1d2226;
+  --background-modifier-form-field: #020405;
+  --background-modifier-error: #e96560;
+  --background-modifier-success: #8acb83;
+  --background-modifier-message: #090e11;
+  --text-normal: #e2e9ee;
+  --text-muted: #9ba0a2;
+  --text-faint: #747c80;
+  --text-on-accent: #05080b;
+  --text-error: #e96560;
+  --text-success: #8acb83;
+  --text-warning: #f0be6d;
+  --text-accent: #9ae0dd;
+  --text-accent-hover: #00a692;
+  --text-selection: #272d31;
+  --text-highlight-bg: #4a3f2c;
+  --interactive-normal: #12171a;
+  --interactive-hover: #1d2226;
+  --interactive-accent: #00a692;
+  --interactive-accent-hover: #00a692;
+  --link-color: #9ae0dd;
+  --link-color-hover: #00a692;
+  --link-unresolved-color: #9ba0a2;
+  --tag-color: #bf91cd;
+  --h1-color: #00a692;
+  --h2-color: #00a692;
+  --h3-color: #00a692;
+  --h4-color: #00a692;
+  --h5-color: #00a692;
+  --h6-color: #00a692;
+  --blockquote-color: #747c80;
+  --blockquote-border-color: #1d2226;
+  --hr-color: #1d2226;
+  --code-background: #090e11;
+  --code-normal: #e2e9ee;
+  --code-comment: #747c80;
+  --code-function: #9ae0dd;
+  --code-keyword: #52d7c1;
+  --code-string: #8acb83;
+  --code-value: #e18c5f;
+  --code-important: #f0be6d;
+  --code-property: #c8cfd4;
+  --code-operator: #747c80;
+  --code-punctuation: #50565b;
+  --code-tag: #bf91cd;
+  --color-red: #e96560;
+  --color-orange: #f0be6d;
+  --color-yellow: #f0be6d;
+  --color-green: #8acb83;
+  --color-cyan: #80b6d3;
+  --color-blue: #9ae0dd;
+  --color-purple: #52d7c1;
+  --color-pink: #e96560;
+  --color-accent: #00a692;
+  --color-accent-1: #00a692;
+  --color-accent-2: #00a692;
+  --lc-syntax-comment: #747c80;
+  --lc-syntax-keyword: #52d7c1;
+  --lc-syntax-string: #8acb83;
+  --lc-syntax-number: #e18c5f;
+  --lc-syntax-constant: #e18c5f;
+  --lc-syntax-variable: #e2e9ee;
+  --lc-syntax-regex: #bf91cd;
+  --lc-syntax-escape: #e18c5f;
+  --lc-syntax-link: #9ae0dd;
+  --lc-syntax-function: #9ae0dd;
+  --lc-syntax-type: #80b6d3;
+  --lc-syntax-builtin: #52d7c1;
+  --lc-syntax-namespace: #80b6d3;
+  --lc-syntax-tag: #bf91cd;
+  --lc-syntax-attribute: #c8cfd4;
+  --lc-syntax-property: #c8cfd4;
+  --lc-syntax-parameter: #c8cfd4;
+  --lc-syntax-operator: #747c80;
+  --lc-syntax-punctuation: #50565b;
+  --lc-syntax-decorator: #bf91cd;
+  --lc-syntax-added: #8acb83;
+  --lc-syntax-removed: #e96560;
+  --scrollbar-thumb-bg: #1d2226;
+  --scrollbar-active-thumb-bg: #2d3438;
+}
+
+.theme-light {
+  --background-primary: #f4f7f9;
+  --background-primary-alt: #ebeff2;
+  --background-secondary: #e0e5e9;
+  --background-secondary-alt: #e0e5e9;
+  --background-modifier-border: #d2d8dd;
+  --background-modifier-border-hover: #187d6e;
+  --background-modifier-border-focus: #187d6e;
+  --background-modifier-hover: #e3e9ed;
+  --background-modifier-active-hover: #d2d8dd;
+  --background-modifier-form-field: #e0e5e9;
+  --background-modifier-error: #a74541;
+  --background-modifier-success: #3b7a35;
+  --background-modifier-message: #ebeff2;
+  --text-normal: #12171a;
+  --text-muted: #50565a;
+  --text-faint: #6b7378;
+  --text-on-accent: #f4f7f9;
+  --text-error: #a74541;
+  --text-success: #3b7a35;
+  --text-warning: #8f6213;
+  --text-accent: #1f7074;
+  --text-accent-hover: #187d6e;
+  --text-selection: #cad2d9;
+  --text-highlight-bg: #d1c1ac;
+  --interactive-normal: #e3e9ed;
+  --interactive-hover: #d2d8dd;
+  --interactive-accent: #187d6e;
+  --interactive-accent-hover: #187d6e;
+  --link-color: #1f7074;
+  --link-color-hover: #187d6e;
+  --link-unresolved-color: #50565a;
+  --tag-color: #81558e;
+  --h1-color: #187d6e;
+  --h2-color: #187d6e;
+  --h3-color: #187d6e;
+  --h4-color: #187d6e;
+  --h5-color: #187d6e;
+  --h6-color: #187d6e;
+  --blockquote-color: #6b7378;
+  --blockquote-border-color: #d2d8dd;
+  --hr-color: #d2d8dd;
+  --code-background: #ebeff2;
+  --code-normal: #12171a;
+  --code-comment: #6b7378;
+  --code-function: #1f7074;
+  --code-keyword: #0f695e;
+  --code-string: #3b7a35;
+  --code-value: #a04f27;
+  --code-important: #8f6213;
+  --code-property: #2e3437;
+  --code-operator: #6b7378;
+  --code-punctuation: #92999f;
+  --code-tag: #81558e;
+  --color-red: #a74541;
+  --color-orange: #8f6213;
+  --color-yellow: #8f6213;
+  --color-green: #3b7a35;
+  --color-cyan: #2b6991;
+  --color-blue: #1f7074;
+  --color-purple: #0f695e;
+  --color-pink: #a74541;
+  --color-accent: #187d6e;
+  --color-accent-1: #187d6e;
+  --color-accent-2: #187d6e;
+  --lc-syntax-comment: #6b7378;
+  --lc-syntax-keyword: #0f695e;
+  --lc-syntax-string: #3b7a35;
+  --lc-syntax-number: #a04f27;
+  --lc-syntax-constant: #a04f27;
+  --lc-syntax-variable: #12171a;
+  --lc-syntax-regex: #81558e;
+  --lc-syntax-escape: #a04f27;
+  --lc-syntax-link: #1f7074;
+  --lc-syntax-function: #1f7074;
+  --lc-syntax-type: #2b6991;
+  --lc-syntax-builtin: #0f695e;
+  --lc-syntax-namespace: #2b6991;
+  --lc-syntax-tag: #81558e;
+  --lc-syntax-attribute: #2e3437;
+  --lc-syntax-property: #2e3437;
+  --lc-syntax-parameter: #2e3437;
+  --lc-syntax-operator: #6b7378;
+  --lc-syntax-punctuation: #92999f;
+  --lc-syntax-decorator: #81558e;
+  --lc-syntax-added: #3b7a35;
+  --lc-syntax-removed: #a74541;
+  --scrollbar-thumb-bg: #d2d8dd;
+  --scrollbar-active-thumb-bg: #c2ccd3;
+}
+
+body {
+  --bold-color: var(--text-normal);
+  --italic-color: var(--text-normal);
+}
+
+.markdown-rendered strong, .cm-strong { color: var(--bold-color); }
+.markdown-rendered em, .cm-em { color: var(--italic-color); }
+.markdown-rendered code, .cm-inline-code { color: var(--code-normal); }
+.markdown-rendered mark, .cm-highlight { color: var(--text-normal); }
+.cm-s-obsidian .cm-formatting-header, .cm-s-obsidian .cm-header { color: var(--h1-color); }
+
+/* Code, token by token, with the roles every Living Code port uses (scripts/roles.mjs). Obsidian's own rules group
+   them coarsely: constants with tags, types with functions. */
+.token.comment { color: var(--lc-syntax-comment); }
+.token.prolog { color: var(--lc-syntax-comment); }
+.token.doctype { color: var(--lc-syntax-comment); }
+.token.cdata { color: var(--lc-syntax-comment); }
+.token.keyword { color: var(--lc-syntax-keyword); }
+.token.atrule { color: var(--lc-syntax-keyword); }
+.token.important { color: var(--lc-syntax-keyword); }
+.token.interpolation-punctuation { color: var(--lc-syntax-keyword); }
+.token.string { color: var(--lc-syntax-string); }
+.token.char { color: var(--lc-syntax-string); }
+.token.attr-value { color: var(--lc-syntax-string); }
+.token.template-string { color: var(--lc-syntax-string); }
+.token.number { color: var(--lc-syntax-number); }
+.token.boolean { color: var(--lc-syntax-constant); }
+.token.constant { color: var(--lc-syntax-variable); }
+.token.symbol { color: var(--lc-syntax-constant); }
+.token.regex { color: var(--lc-syntax-regex); }
+.token.entity { color: var(--lc-syntax-escape); }
+.token.url { color: var(--lc-syntax-link); }
+.token.function { color: var(--lc-syntax-function); }
+.token.class-name { color: var(--lc-syntax-type); }
+.token.selector { color: var(--lc-syntax-type); }
+.token.builtin { color: var(--lc-syntax-builtin); }
+.token.namespace { color: var(--lc-syntax-namespace); }
+.token.tag { color: var(--lc-syntax-tag); }
+.token.attr-name { color: var(--lc-syntax-attribute); }
+.token.property { color: var(--lc-syntax-property); }
+.token.property-access { color: var(--lc-syntax-property); }
+.token.parameter { color: var(--lc-syntax-parameter); }
+.token.variable { color: var(--lc-syntax-variable); }
+.token.operator { color: var(--lc-syntax-operator); }
+.token.punctuation { color: var(--lc-syntax-punctuation); }
+.token.annotation { color: var(--lc-syntax-decorator); }
+.token.decorator { color: var(--lc-syntax-decorator); }
+.token.inserted { color: var(--lc-syntax-added); }
+.token.deleted { color: var(--lc-syntax-removed); }
+.cm-s-obsidian .cm-comment { color: var(--lc-syntax-comment); }
+.cm-s-obsidian .cm-meta { color: var(--lc-syntax-comment); }
+.cm-s-obsidian .cm-keyword { color: var(--lc-syntax-keyword); }
+.cm-s-obsidian .cm-string { color: var(--lc-syntax-string); }
+.cm-s-obsidian .cm-string-2 { color: var(--lc-syntax-string); }
+.cm-s-obsidian .cm-number { color: var(--lc-syntax-number); }
+.cm-s-obsidian .cm-atom { color: var(--lc-syntax-constant); }
+.cm-s-obsidian .cm-def { color: var(--lc-syntax-function); }
+.cm-s-obsidian .cm-builtin { color: var(--lc-syntax-builtin); }
+.cm-s-obsidian .cm-type { color: var(--lc-syntax-type); }
+.cm-s-obsidian .cm-qualifier { color: var(--lc-syntax-type); }
+.cm-s-obsidian .cm-variable-3 { color: var(--lc-syntax-type); }
+.cm-s-obsidian .cm-tag { color: var(--lc-syntax-tag); }
+.cm-s-obsidian .cm-attribute { color: var(--lc-syntax-attribute); }
+.cm-s-obsidian .cm-property { color: var(--lc-syntax-property); }
+.cm-s-obsidian .cm-variable { color: var(--lc-syntax-variable); }
+.cm-s-obsidian .cm-variable-2 { color: var(--lc-syntax-variable); }
+.cm-s-obsidian .cm-operator { color: var(--lc-syntax-operator); }
+.cm-s-obsidian .cm-punctuation { color: var(--lc-syntax-punctuation); }
+.cm-s-obsidian .cm-bracket { color: var(--lc-syntax-punctuation); }
+.cm-s-obsidian .cm-hr { color: var(--lc-syntax-punctuation); }
+.cm-s-obsidian .cm-link { color: var(--lc-syntax-link); }

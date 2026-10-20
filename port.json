@@ -1,0 +1,39 @@
+{
+  "$schema": "https://living-code.dev/port.schema.json",
+  "schemaVersion": 1,
+  "name": "Obsidian",
+  "slug": "obsidian",
+  "group": "Apps",
+  "emoji": "💎",
+  "description": "Living Code for Obsidian. Repository-owned theme files, installation instructions and four color flavors.",
+  "homepage": "https://obsidian.md",
+  "quick": "See installation instructions",
+  "aliases": [
+    "obsidian"
+  ],
+  "flavors": [
+    "night",
+    "frost",
+    "paper",
+    "signal"
+  ],
+  "files": [
+    "manifest.json",
+    "screenshot.png",
+    "snippets/living-code-frost.css",
+    "snippets/living-code-signal.css",
+    "theme.css"
+  ],
+  "images": [
+    {
+      "flavor": "night",
+      "path": "images/night.png",
+      "alt": "Obsidian running Living Code Night"
+    },
+    {
+      "flavor": "paper",
+      "path": "images/paper.png",
+      "alt": "Obsidian running Living Code Paper"
+    }
+  ]
+}
