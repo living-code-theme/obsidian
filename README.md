@@ -5,11 +5,11 @@
 
 # 💎 Living Code for Obsidian
 
-**Calm slate. Living color.**<br>Living Code for Obsidian. Repository-owned theme files, installation instructions and four color flavors.
+**Calm slate. Living color.**<br>Living Code for Obsidian. Night and Paper themes, with optional Frost and Signal CSS snippets.
 
 <img src="https://raw.githubusercontent.com/living-code-theme/core/main/assets/swatches/00a692.svg" width="14" height="14" alt="teal #00a692"> <img src="https://raw.githubusercontent.com/living-code-theme/core/main/assets/swatches/52d7c1.svg" width="14" height="14" alt="mint #52d7c1"> <img src="https://raw.githubusercontent.com/living-code-theme/core/main/assets/swatches/9ae0dd.svg" width="14" height="14" alt="aqua #9ae0dd"> <img src="https://raw.githubusercontent.com/living-code-theme/core/main/assets/swatches/80b6d3.svg" width="14" height="14" alt="steel #80b6d3"> <img src="https://raw.githubusercontent.com/living-code-theme/core/main/assets/swatches/8acb83.svg" width="14" height="14" alt="moss #8acb83"> <img src="https://raw.githubusercontent.com/living-code-theme/core/main/assets/swatches/f0be6d.svg" width="14" height="14" alt="amber #f0be6d"> <img src="https://raw.githubusercontent.com/living-code-theme/core/main/assets/swatches/e18c5f.svg" width="14" height="14" alt="copper #e18c5f"> <img src="https://raw.githubusercontent.com/living-code-theme/core/main/assets/swatches/e96560.svg" width="14" height="14" alt="flare #e96560"> <img src="https://raw.githubusercontent.com/living-code-theme/core/main/assets/swatches/bf91cd.svg" width="14" height="14" alt="orchid #bf91cd"> <img src="https://raw.githubusercontent.com/living-code-theme/core/main/assets/swatches/ddaec3.svg" width="14" height="14" alt="rose #ddaec3">
 
-<a href="https://living-code.dev"><img src="https://img.shields.io/badge/Living%20Code-4%20flavors-9ae0dd?style=for-the-badge&amp;labelColor=2d3438&amp;color=9ae0dd&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjIgMTcgNTguNSAzMCI%2BPGcgZmlsbD0iIzAwYTY5MiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEuNzg3NzA5IDQzLjI2MjU3KSBzY2FsZSgwLjAzMTI4NSAtMC4wMzEyODUpIj48cGF0aCB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDApIiBkPSJNMTg1IC0xMTBWODMwSDQ2NVY3MTVIMzEwVjVINDY1Vi0xMTBaIi8%2BPHBhdGggdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNTIwIDApIiBkPSJNMzg5IDBRMzA3IDAgMjU3LjUgNDlRMjA4IDk4IDIwOCAxNzhWNjE3SDI3VjczMEgzMzNWMTgxUTMzMyAxNTAgMzUwLjUgMTMxLjVRMzY4IDExMyAzOTggMTEzSDU1OVYwWiIvPjxwYXRoIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEwNDAgMCkiIGQ9Ik0zMDkgLTEwUTIzOCAtMTAgMTg1LjUgMTYuNVExMzMgNDMgMTA0IDkxLjVRNzUgMTQwIDc1IDIwNlYzNDRRNzUgNDEwIDEwNCA0NTguNVExMzMgNTA3IDE4NS41IDUzMy41UTIzOCA1NjAgMzA5IDU2MFE0MTIgNTYwIDQ3NC41IDUwNi41UTUzNyA0NTMgNTQwIDM2MUg0MTdRNDE0IDQwNCAzODQuNSA0MjcuNVEzNTUgNDUxIDMwOSA0NTFRMjU4IDQ1MSAyMjkgNDIzLjVRMjAwIDM5NiAyMDAgMzQ1VjIwNlEyMDAgMTU1IDIyOSAxMjdRMjU4IDk5IDMwOSA5OVEzNTYgOTkgMzg1IDEyMi41UTQxNCAxNDYgNDE3IDE4OUg1NDBRNTM3IDk3IDQ3NC41IDQzLjVRNDEyIC0xMCAzMDkgLTEwWiIvPjxwYXRoIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE1NjAgMCkiIGQ9Ik0xMzUgLTExMFY1SDI5MFY3MTVIMTM1VjgzMEg0MTVWLTExMFoiLz48L2c%2BPC9zdmc%2B" alt="Living Code: 4 flavors"></a>
+<a href="https://living-code.dev"><img src="https://img.shields.io/badge/Living%20Code-2%20flavors-9ae0dd?style=for-the-badge&amp;labelColor=2d3438&amp;color=9ae0dd&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjIgMTcgNTguNSAzMCI%2BPGcgZmlsbD0iIzAwYTY5MiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEuNzg3NzA5IDQzLjI2MjU3KSBzY2FsZSgwLjAzMTI4NSAtMC4wMzEyODUpIj48cGF0aCB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDApIiBkPSJNMTg1IC0xMTBWODMwSDQ2NVY3MTVIMzEwVjVINDY1Vi0xMTBaIi8%2BPHBhdGggdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNTIwIDApIiBkPSJNMzg5IDBRMzA3IDAgMjU3LjUgNDlRMjA4IDk4IDIwOCAxNzhWNjE3SDI3VjczMEgzMzNWMTgxUTMzMyAxNTAgMzUwLjUgMTMxLjVRMzY4IDExMyAzOTggMTEzSDU1OVYwWiIvPjxwYXRoIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEwNDAgMCkiIGQ9Ik0zMDkgLTEwUTIzOCAtMTAgMTg1LjUgMTYuNVExMzMgNDMgMTA0IDkxLjVRNzUgMTQwIDc1IDIwNlYzNDRRNzUgNDEwIDEwNCA0NTguNVExMzMgNTA3IDE4NS41IDUzMy41UTIzOCA1NjAgMzA5IDU2MFE0MTIgNTYwIDQ3NC41IDUwNi41UTUzNyA0NTMgNTQwIDM2MUg0MTdRNDE0IDQwNCAzODQuNSA0MjcuNVEzNTUgNDUxIDMwOSA0NTFRMjU4IDQ1MSAyMjkgNDIzLjVRMjAwIDM5NiAyMDAgMzQ1VjIwNlEyMDAgMTU1IDIyOSAxMjdRMjU4IDk5IDMwOSA5OVEzNTYgOTkgMzg1IDEyMi41UTQxNCAxNDYgNDE3IDE4OUg1NDBRNTM3IDk3IDQ3NC41IDQzLjVRNDEyIC0xMCAzMDkgLTEwWiIvPjxwYXRoIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE1NjAgMCkiIGQ9Ik0xMzUgLTExMFY1SDI5MFY3MTVIMTM1VjgzMEg0MTVWLTExMFoiLz48L2c%2BPC9zdmc%2B" alt="Living Code: 2 flavors"></a>
 <a href="https://github.com/living-code-theme/obsidian/stargazers"><img src="https://img.shields.io/github/stars/living-code-theme/obsidian?style=for-the-badge&amp;labelColor=2d3438&amp;color=f0be6d&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2YwYmU2ZCIgZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDF6Ii8%2BPC9zdmc%2B" alt="GitHub stars"></a>
 <a href="https://github.com/living-code-theme/obsidian/issues"><img src="https://img.shields.io/github/issues/living-code-theme/obsidian?style=for-the-badge&amp;labelColor=2d3438&amp;color=ddaec3&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iOSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZGRhZWMzIiBzdHJva2Utd2lkdGg9IjIuNSIvPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiIGZpbGw9IiNkZGFlYzMiLz48L3N2Zz4%3D" alt="Open issues"></a>
 <a href="https://github.com/living-code-theme/obsidian/commits/main"><img src="https://img.shields.io/github/last-commit/living-code-theme/obsidian?style=for-the-badge&amp;labelColor=2d3438&amp;color=abe2a4&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggc3Ryb2tlPSIjYWJlMmE0IiBzdHJva2Utd2lkdGg9IjIuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBkPSJNMiAxMmg1LjVNMTYuNSAxMkgyMiIvPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjQuNSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYWJlMmE0IiBzdHJva2Utd2lkdGg9IjIuNSIvPjwvc3ZnPg%3D%3D&amp;label=updated" alt="Last commit"></a>
@@ -33,9 +33,7 @@
 </tr>
 </table>
 
-Select any preview to view the image at full size.
-
-Frost, Signal are supported; real captures are not available yet.
+Real Obsidian screenshots of Night and Paper. Select either preview to view it at full size.
 
 ## Installation
 
@@ -48,7 +46,7 @@ Obsidian's dark mode is **Night** and its light mode is **Paper**; the theme fol
 
 ## Flavors
 
-Expand a flavor for its full-size preview and activation instructions.
+Night and Paper include full-size previews below. Frost and Signal are optional dark-mode CSS snippets.
 
 <details data-lc-flavor="night">
 <summary><strong>Night</strong> · Dark · full palette</summary>
@@ -61,8 +59,6 @@ Set *Appearance → Base color scheme* to **Dark**. Disable the Frost and Signal
 
 <details data-lc-flavor="frost">
 <summary><strong>Frost</strong> · Dark · softer chroma</summary>
-
-A real application capture is not available yet.
 
 Set the base color scheme to **Dark**, copy `snippets/living-code-frost.css` to `<vault>/.obsidian/snippets/`, and enable it under *Appearance → CSS snippets*. Disable the other Living Code snippet.
 
@@ -79,8 +75,6 @@ Set *Appearance → Base color scheme* to **Light**. Disable the Frost and Signa
 
 <details data-lc-flavor="signal">
 <summary><strong>Signal</strong> · Dark · teal accent</summary>
-
-A real application capture is not available yet.
 
 Set the base color scheme to **Dark**, copy `snippets/living-code-signal.css` to `<vault>/.obsidian/snippets/`, and enable it under *Appearance → CSS snippets*. Disable the other Living Code snippet.
 
