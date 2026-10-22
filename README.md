@@ -41,10 +41,25 @@ Frost, Signal are supported; real captures are not available yet.
 
 Obsidian's dark mode is **Night** and its light mode is **Paper**; the theme follows *Appearance → Base color scheme*.
 
-1. Open *Settings → Appearance → Themes → Manage*, search for **Living Code** and click **Install and use**.
-2. **Without the directory:** copy `manifest.json` and `theme.css` from [the repository root](.) into `<vault>/.obsidian/themes/Living Code/`, then pick **Living Code** under *Appearance → Themes*.
+Living Code is not in Obsidian's community theme directory yet. Download the theme into your vault's themes folder:
 
-**Frost and Signal** are dark flavors, so they ship as CSS snippets rather than as a Style Settings option, which would need a second plugin: copy `snippets/living-code-frost.css` or `snippets/living-code-signal.css` into `<vault>/.obsidian/snippets/` and enable it under *Appearance → CSS snippets*.
+```sh
+vault=~/path/to/your/vault
+base=https://raw.githubusercontent.com/living-code-theme/obsidian/main
+curl -fsSL --create-dirs -o "$vault/.obsidian/themes/Living Code/manifest.json" "$base/manifest.json"
+curl -fsSL --create-dirs -o "$vault/.obsidian/themes/Living Code/theme.css" "$base/theme.css"
+```
+
+Then open *Settings → Appearance → Themes*, click the reload icon if Living Code is not listed yet, and select **Living Code**. On Windows, save [`manifest.json`](manifest.json) and [`theme.css`](theme.css) into `<vault>\.obsidian\themes\Living Code\` instead.
+
+**Frost and Signal** are dark flavors, so they ship as CSS snippets rather than as a Style Settings option, which would need a second plugin. Download one into the vault's snippets folder:
+
+```sh
+flavor=frost # or signal
+curl -fsSL --create-dirs -o "$vault/.obsidian/snippets/living-code-$flavor.css" "$base/snippets/living-code-$flavor.css"
+```
+
+Enable it under *Appearance → CSS snippets* (use the reload icon if it is not listed), with the base color scheme set to **Dark**.
 
 ## Flavors
 
@@ -92,7 +107,7 @@ See [Obsidian's documentation](https://obsidian.md) for application settings and
 
 ## Compatibility
 
-The theme manifest retains version 1.0.0 and minAppVersion 1.0.0. Night and Paper follow Obsidian's base color scheme; Frost and Signal are optional dark-mode snippets. The existing Living Code community-theme and release identities are preserved.
+`manifest.json` names the theme **Living Code**, which is also its folder name under `.obsidian/themes/`; it declares version 1.0.0 and minAppVersion 1.0.0. Night and Paper follow Obsidian's base color scheme; Frost and Signal are optional dark-mode snippets that layer on top of the theme.
 
 ## Contributing
 
