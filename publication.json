@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 1,
+  "artifacts": ["living-code-obsidian-{version}.zip", "manifest.json", "theme.css"],
+  "channels": [
+    { "name": "Obsidian community themes", "url": "https://docs.obsidian.md/Themes/App+themes/Submit+your+theme", "instructions": "Submit living-code-theme/obsidian as the source repository, not this ZIP as a plugin. Review root manifest.json, theme.css, README, LICENSE and screenshot.png. Commit the reviewed files and create a release whose tag exactly matches manifest.version, without a v prefix, attaching manifest.json and theme.css. Follow the current community theme submission procedure. No release or tag is created by packaging." }
+  ]
+}
